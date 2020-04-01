@@ -1,12 +1,32 @@
 import React from 'react';
 import AboutPage from './pages/aboutpage/aboutpage.component';
 import HomePage from './pages/homepage/homepage.component';
+import { TitleComponent } from './components/title/Title.component.jsx';
+import Switch from "react-switch"
 import {
   Route,
   Link
 } from "react-router-dom";
-import Switch from "react-switch"
+
+
+
 import './App.scss';
+
+const withTitle = ({ component: Component, title }) => {
+  return class Title extends React.Component {
+      render() {
+          return (
+              <React.Fragment>
+                  <TitleComponent title={title} />
+                  <Component {...this.props} />
+              </React.Fragment>
+          );
+      }
+  };
+};
+
+const HomePageComponent = withTitle ({ component: HomePage, title: 'Home'});
+const AboutPageComponent = withTitle ({ component: AboutPage, title: 'About'});
 
 class App extends React.Component {
   constructor(props){
@@ -15,7 +35,8 @@ class App extends React.Component {
       checked: false,
     }
     this.props = props;
-  }  
+  }
+
   handleChange = (checked) => {
     this.setState({checked})
   };
@@ -27,7 +48,7 @@ class App extends React.Component {
             <div className =  'options'>
               <Link className =  'option' to ='/'>Kenny Nguyen</Link>
               <Link className =  'option' to ='/about'>About</Link>
-              <Link className =  'option' to ='/'>Projects</Link>
+              <a className =  'option' href = "https://road2paradise-bucket123.s3-ap-southeast-2.amazonaws.com/CirriculumVitae-+KennyNguyen2020.pdf">Curriculum Vitae</a>              
             </div>
             <div className = 'switch'>
               <span className = 'text'>
@@ -45,8 +66,8 @@ class App extends React.Component {
             </div>
           </div>
             <div className = {'content'}>
-              <Route exact path = '/' component = {HomePage}/>       
-              <Route exact path = '/about' component = {AboutPage}/>       
+              <Route exact path = '/' component = {HomePageComponent}/>       
+              <Route exact path = '/about' component = {AboutPageComponent}/>       
             <br/>
             <footer>
                 COPYRIGHT KENNY NGUYEN 2020

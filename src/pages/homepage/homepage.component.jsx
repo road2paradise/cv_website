@@ -23,14 +23,10 @@ const HomePage = () => {
                 <Link Style = "text-decoration: none" className = 'about-us' to ='/about'>
                   <Button variant="outline-info">About</Button>{' '}
                 </Link>
-                <a Style = "text-decoration: none" href = "/">
+                <a Style = "text-decoration: none" href = "https://road2paradise-bucket123.s3-ap-southeast-2.amazonaws.com/CirriculumVitae-+KennyNguyen2020.pdf">
                   <Button variant="outline-info">Curriculum Vitae
                   </Button>{' '}
                 </a>
-                <Link Style = "text-decoration: none" className = 'projects' to ='/'>
-                  <Button variant="outline-info">Projects
-                  </Button>{' '}
-                </Link>
                 <a href = "https://www.linkedin.com/in/kenny-d-nguyen/">
                   <Image className = 'logo' src = {logo1}/>
                 </a>
