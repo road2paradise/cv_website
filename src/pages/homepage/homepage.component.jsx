@@ -11,7 +11,7 @@ const logo1 = require('../../assets/linkedin-logo.png');
 const logo2 = require('../../assets/github-logo.png');
 
 
-const HomePage = () => {
+const HomePage = ({props}) => {
     return(
       <div className = 'homepage-content'>
         <div className = 'text-box'>
@@ -21,10 +21,10 @@ const HomePage = () => {
               <br/>
               <hr/>
                 <Link Style = "text-decoration: none" className = 'about-us' to ='/about'>
-                  <Button variant="outline-info">About</Button>{' '}
+                  <Button className = 'buttons' variant="outline-info">About</Button>{' '}
                 </Link>
                 <a Style = "text-decoration: none" href = "https://road2paradise-bucket123.s3-ap-southeast-2.amazonaws.com/CirriculumVitae-+KennyNguyen2020.pdf">
-                  <Button variant="outline-info">Curriculum Vitae
+                  <Button className = 'buttons' variant="outline-info">Curriculum Vitae
                   </Button>{' '}
                 </a>
                 <a href = "https://www.linkedin.com/in/kenny-d-nguyen/">

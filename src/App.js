@@ -51,17 +51,17 @@ class App extends React.Component {
               <a className =  'option' href = "https://road2paradise-bucket123.s3-ap-southeast-2.amazonaws.com/CirriculumVitae-+KennyNguyen2020.pdf">Curriculum Vitae</a>              
             </div>
             <div className = 'switch'>
-              <span className = 'text'>
+              <h1 className = 'text'>
               Night Mode
-              </span>
+              </h1>
             <Switch 
               onChange = {this.handleChange} 
               checked = {this.state.checked}
               offColor = '#00000'
               onHandleColor = '#808080'
               offHandleColor = '#808080'
-              width = {70}
-              height = {30}
+              width = {50}
+              height = {25}
               />
             </div>
           </div>

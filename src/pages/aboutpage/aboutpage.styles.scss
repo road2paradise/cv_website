@@ -1,15 +1,28 @@
 .about-page{
-
     .about-page-title{
+        @media screen and (max-width: 500px){
+            font-size: 25px;
+        }
         font-size: 50px;
     }
     .portrait-self{
+        @media screen and (max-width: 500px){
+            width: 100px;
+        }
         width: 200px;
     }
     .about-page-content1{
+        @media screen and (max-width: 500px) {
+            margin-bottom: 75px;
+            padding: 0px 50px;
+        }
         margin-bottom: 200px;
         padding: 0px 100px;
         .react-logo{
+            @media screen and (max-width: 500px){
+                width: 100px;
+                float: none;
+            }
             animation: react-logo-spin infinite 5s linear;
             width: 300px;
             float: left;     
@@ -18,7 +31,15 @@
     .about-page-content2{
         margin-bottom: 200px;
         padding: 0px 100px;
+        @media screen and (max-width: 500px) {
+            margin-bottom: 75px;
+            padding: 0px 50px;
+        }
         .aws-logo{
+            @media screen and (max-width: 500px){
+                width: 100px;
+                float: none;
+            }
             width: 400px;
             float: right;     
         }    
@@ -27,12 +48,25 @@
         margin-top: 300px;
         margin-bottom: 200px;
         padding: 0px 100px;
+        @media screen and (max-width: 500px) {
+            margin-bottom: 75px;
+            margin-top: 0px;
+            padding: 0px 50px;
+        }
         .paragraph-3{
             .stantec-logo{
+                @media screen and (max-width: 500px){
+                    width: 100%;
+                    float: none;
+                }
                 width: 400px;
                 padding: 50px 10px;
             }
             .fph-logo{          
+                @media screen and (max-width: 500px){
+                    width: 100%;
+                    float: none;
+                }
                 width: 400px;
                 padding: 50px 10px;
             }       
@@ -43,14 +77,26 @@
         font-weight: bold;
         text-decoration: underline;
         margin-bottom: 300px;
+        @media screen and (max-width: 500px){
+            font-size: 25px;
+            margin-bottom: 75px;
+        }
     }
     h2{
         font-size: 45px;
         font-weight: bold;
-        text-decoration: underline;        
+        text-decoration: underline;   
+        @media screen and (max-width: 500px){
+            font-size: 20px;
+        }
+     
     }
     p{
         font-size: 20px;
+        @media screen and (max-width: 500px){
+            font-size: 12px;
+        }
+
     }
     h3{
         padding: 100px 0;
