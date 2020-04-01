@@ -1,51 +1,67 @@
 .about-page{
-    text-align: center;        
-    .image-container{
-        font-family: 'Roboto Condensed', sans-serif;
-        font-size: 25px;
-        margin-top: 50px;
-        width: 1000px;
-        height: 1000px;
-        display: inline-block;
-        border: 2px solid black;
-        border-radius: 20px;
-        -webkit-box-shadow: 0.5px 3px 15px 1px rgba(0,0,0,1);
-        -moz-box-shadow: 0.5px 3px 15px 1px rgba(0,0,0,1);
-        box-shadow: 0.5px 3px 15px 1px rgba(0,0,0,1);
-        .self-portrait{
-            width: 180px;
-            height: 180px;
-            margin-top: 40px;
-        }
-        .logo{
-            width: 40px;
-            height: 40px;
-            &:hover{
-                cursor: pointer;
+
+    .about-page-title{
+        font-size: 50px;
+    }
+    .portrait-self{
+        width: 200px;
+    }
+    .about-page-content1{
+        margin-bottom: 200px;
+        padding: 0px 100px;
+        .react-logo{
+            animation: react-logo-spin infinite 5s linear;
+            width: 300px;
+            float: left;     
+        }    
+    }
+    .about-page-content2{
+        margin-bottom: 200px;
+        padding: 0px 100px;
+        .aws-logo{
+            width: 400px;
+            float: right;     
+        }    
+    }
+    .about-page-content3{
+        margin-top: 300px;
+        margin-bottom: 200px;
+        padding: 0px 100px;
+        .paragraph-3{
+            .stantec-logo{
+                width: 400px;
+                padding: 50px 10px;
             }
-        }        
+            .fph-logo{          
+                width: 400px;
+                padding: 50px 10px;
+            }       
+        }
     }
-    .about-page-content{
-        font-family: 'Open Sans', sans-serif;
-        font-size: 15px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 20px;
-        text-align: center;
+    h1{
+        font-size: 50px;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-bottom: 300px;
     }
-    .react-icon{
-        text-align: left;
-        animation: react-icon-spin infinite 5s linear;
-        height: 200px;
-      }
-      .python-icon{
-        height: 200px;
-      }
-      .aws-icon{
-        height: 200px;
-      }
+    h2{
+        font-size: 45px;
+        font-weight: bold;
+        text-decoration: underline;        
+    }
+    p{
+        font-size: 20px;
+    }
+    h3{
+        padding: 100px 0;
+    }
+
 }
-@keyframes react-icon-spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
+@keyframes react-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
