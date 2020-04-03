@@ -48,7 +48,7 @@ class App extends React.Component {
             <div className =  'options'>
               <Link className =  'option' to ='/'>Kenny Nguyen</Link>
               <Link className =  'option' to ='/about'>About</Link>
-              <a className =  'option' href = "https://road2paradise-bucket123.s3-ap-southeast-2.amazonaws.com/CirriculumVitae-+KennyNguyen2020.pdf">Curriculum Vitae</a>              
+              <a className =  'option'  target="_blank" rel="noopener noreferrer" href = "https://road2paradise-bucket123.s3-ap-southeast-2.amazonaws.com/CirriculumVitae-+KennyNguyen2020.pdf">Curriculum Vitae</a>              
             </div>
             <div className = 'switch'>
               <h1 className = 'text'>

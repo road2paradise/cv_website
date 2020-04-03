@@ -23,7 +23,7 @@ const HomePage = ({props}) => {
                 <Link Style = "text-decoration: none" className = 'about-us' to ='/about'>
                   <Button className = 'buttons' variant="outline-info">About</Button>{' '}
                 </Link>
-                <a Style = "text-decoration: none" href = "https://road2paradise-bucket123.s3-ap-southeast-2.amazonaws.com/CirriculumVitae-+KennyNguyen2020.pdf">
+                <a Style = "text-decoration: none" target="_blank" rel="noopener noreferrer" href = "https://road2paradise-bucket123.s3-ap-southeast-2.amazonaws.com/CirriculumVitae-+KennyNguyen2020.pdf">
                   <Button className = 'buttons' variant="outline-info">Curriculum Vitae
                   </Button>{' '}
                 </a>
