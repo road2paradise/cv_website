@@ -1,0 +1,129 @@
+.map-container{
+    .nz-map-container{
+        .nz-map{
+            @media screen and (max-width: 500px) {
+                height: 90%;
+                width: 90%;
+            }
+            width: 800px;
+            height: 900px;
+        }
+        .akl-pointer{
+            position: absolute;
+            width: 30px;
+            height: 40px;
+            margin-top: 135px;
+            margin-left: 500px;
+            @media screen and (max-width: 500px) {
+                width: 20px;
+                height: 25px;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        .tng-pointer{
+            &:hover{
+                cursor: pointer;
+            }
+
+            position: absolute;
+            width: 30px;
+            height: 40px;
+            margin-top: 180px;
+            margin-left: 560px;
+            @media screen and (max-width: 500px) {
+                width: 20px;
+                height: 25px;
+            }
+
+        }
+        .ro-pointer{
+            &:hover{
+                cursor: pointer;
+            }
+
+            position: absolute;
+            width: 30px;
+            height: 40px;
+            margin-top: 220px;
+            margin-left: 580px;
+            @media screen and (max-width: 500px) {
+                width: 20px;
+                height: 25px;
+            }
+        }
+        .ham-pointer{
+            &:hover{
+                cursor: pointer;
+            }
+
+            position: absolute;
+            width: 30px;
+            height: 40px;
+            margin-top: 200px;
+            margin-left: 540px;
+            @media screen and (max-width: 500px) {
+                width: 20px;
+                height: 25px;
+            }
+        }
+        .tau-pointer{
+            &:hover{
+                cursor: pointer;
+            }
+
+            position: absolute;
+            width: 30px;
+            height: 40px;
+            margin-top: 260px;
+            margin-left: 560px;
+            @media screen and (max-width: 500px) {
+                width: 20px;
+                height: 25px;
+            }
+        }
+
+        .wtgn-pointer{
+            &:hover{
+                cursor: pointer;
+            }
+
+            position: absolute;
+            width: 30px;
+            height: 40px;
+            margin-top: 445px;
+            margin-left: 510px;
+            @media screen and (max-width: 500px) {
+                width: 20px;
+                height: 25px;
+            }
+        }
+        .chch-pointer{
+            &:hover{
+                cursor: pointer;
+            }
+
+            position: absolute;
+            width: 30px;
+            height: 40px;
+            margin-top: 610px;
+            margin-left: 400px;
+            @media screen and (max-width: 500px) {
+                width: 20px;
+                height: 25px;
+            }
+
+        }
+    }
+    .world-map{
+        @media screen and (max-width: 500px) {
+            height: 90%;
+            width: 90%;
+        }
+        margin-top: 20%;
+        width: 400px;
+        height: 500px;
+    }
+    
+}

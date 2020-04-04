@@ -41,9 +41,10 @@ class App extends React.Component {
     this.setState({checked})
   };
   render() {
+    const {checked} = this.state;
     return (
       <div className = 'dir'>
-        <div className = {this.state.checked ?  'wrappertrue' : 'wrapperfalse'}>
+        <div className = {checked ?  'wrappertrue' : 'wrapperfalse'}>
           <div className = 'header'>
             <div className =  'options'>
               <Link className =  'option' to ='/'>Kenny Nguyen</Link>
@@ -56,8 +57,8 @@ class App extends React.Component {
               </h1>
             <Switch 
               onChange = {this.handleChange} 
-              checked = {this.state.checked}
-              offColor = '#00000'
+              checked = {checked}
+              offColor = '#000000'
               onHandleColor = '#808080'
               offHandleColor = '#808080'
               width = {50}

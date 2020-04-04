@@ -11,7 +11,7 @@ const logo1 = require('../../assets/linkedin-logo.png');
 const logo2 = require('../../assets/github-logo.png');
 
 
-const HomePage = ({props}) => {
+const HomePage = () => {
     return(
       <div className = 'homepage-content'>
         <div className = 'text-box'>
