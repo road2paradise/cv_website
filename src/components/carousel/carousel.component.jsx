@@ -101,8 +101,7 @@ const CarouselPhotos = () => {
                     <Carousel.Caption>
                         <h3> Muriwai Gannet Colony Sunet view, Auckland Febuary 2020 </h3>
                     </Carousel.Caption>
-                </Carousel.Item>               
-               
+                </Carousel.Item>                              
             </Carousel>
         </div>
     )

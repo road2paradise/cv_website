@@ -1,3 +1,332 @@
-.hidden {
-    display: none;
+.sydney {
+    width: 70%;
+    max-width: 1250px!important;
+    font-size: 20px;
+
+    p{
+        float: left;
+        padding: 20px 20px;
+    }
+    .bondi-beach{
+        float: left;
+        img{
+            width: 500px;
+            height: 500px;
+    
+        }
+    }
+    .grand-challenge{
+        float: right;
+        img{
+            width: 700px;
+            height: 500px;
+        }
+
+    }    
+    figcaption{
+        margin-left: 35%;
+    }
 }
+
+.melbourne{
+    width: 70%;
+    max-width: 1250px!important;
+    font-size: 20px;
+
+    p{
+        float: left;
+        padding: 20px 20px;
+    }
+    .melbourne-1{
+        float: left;
+        img{
+            width: 600px;
+            height: 600px;
+            transform: rotate(90deg);
+        }
+    }
+    .melbourne-2{
+        float: right;
+        img{
+            transform: rotate(90deg);
+            width: 600px;
+            height: 600px;
+        }
+
+    }    
+    figcaption{
+        margin-left: 35%;
+    }
+
+}
+
+
+.brisbane {
+    width: 70%;
+    font-size: 20px;
+    max-width: 1300px!important;
+    p{
+        float: left;
+        padding: 20px 20px;
+    }
+    .gold-coast-1{
+        float: left;
+        margin-top: 100px;
+        width: 600px;
+        img{
+            text-align: center;
+            height: 400px;
+            width: 600px;
+            transform: rotate(90deg);
+        }
+        figcaption{
+            margin-top: 100px;
+            margin-left: 20%;
+        }
+
+    }
+    .gold-coast-2{
+        float: right;
+        margin-top: 100px;
+        img{
+            height: 400px;
+            width: 600px;
+            transform: rotate(90deg);
+        }
+        figcaption{
+            margin-top: 100px;
+            margin-left: 30%;
+        }
+    }    
+}
+
+.japan {
+    width: 70%;
+    max-width: 2000px!important;
+    font-size: 20px;
+    .tokyo1{
+        text-align: center;
+        img{
+            margin-top: 50px;
+            height: 400px;
+            width: 500px;
+            transform: rotate(90deg)
+        }
+        figcaption{
+            margin-top: 50px;
+        }        
+    }
+    .tokyo2{
+        margin-top: 10px;
+        text-align: center;
+        img{
+
+            height: 500px;
+            width: 600px;
+        }
+
+    }
+    
+    .kyoto-1{
+        text-align: center;
+        height: 600px;
+        margin-top: 50px;
+
+        img{
+            height: 500px;
+            width: 600px;
+            transform: rotate(270deg)
+
+        }
+        figcaption{
+            margin-top: 50px;
+        }        
+
+    }
+    .kyoto-2{
+
+        text-align: center;
+        img{
+
+            height: 500px;
+            width: 600px;
+        }
+        figcaption{
+            margin-top: 0px;
+        }        
+
+    }
+    .kyoto-3{
+        text-align: center;
+        margin-top: 75px;
+        img{
+
+            height: 500px;
+            width: 650px;
+            transform: rotate(90deg)
+
+        }
+        figcaption{
+            margin-top: 75px;
+        }        
+
+    }
+    .osaka-1{
+        text-align: center;
+        height: 700px;
+
+        img{
+            height: 600px;
+            width: 900px;
+
+        }
+        figcaption{
+            margin-top: 10px;
+        }        
+
+    }
+    .osaka-2{
+
+        text-align: center;
+        height: 700px;
+        margin-top: 100px;
+
+        img{
+
+            height: 500px;
+            width: 700px;
+            transform: rotate(90deg);
+        }
+        figcaption{
+            margin-top: 100px;
+        }        
+    }
+    .nara-1{
+        text-align: center;
+        height: 700px;
+
+        img{
+            height: 700px;
+            width: 1000px;
+
+        }
+        figcaption{
+            margin-top: 10px;
+        }        
+
+    }
+    .nara-2{
+
+        text-align: center;
+        margin-top: 100px;
+
+        img{
+
+            height: 500px;
+            width: 700px;
+            transform: rotate(90deg);
+        }
+        figcaption{
+            margin-top: 100px;
+        }        
+    }
+    p{
+        float: left;
+        padding: 20px 20px;
+    }
+
+}
+
+.korea {
+    width: 70%;
+    max-width: 2000px!important;
+    font-size: 20px;
+    .korea1{
+        text-align: center;
+        img{
+            margin-top: 50px;
+            height: 500px;
+            width: 600px;
+        }
+    }
+    .korea2{
+        margin-top: 100px;
+        text-align: center;
+        height: 600px;
+        width: 600px;
+        img{
+            transform: rotate(90deg);    
+            height: 500px;
+            width: 600px;
+        }
+        figcaption{
+            margin-top: 50px;
+            
+        }        
+
+
+    }
+    .korea3{
+        margin-top: 50px;
+        text-align: center;
+        img{
+
+            height: 500px;
+            width: 600px;
+        }
+
+    }      
+p{
+    float: left;
+    padding: 20px 20px;
+}
+}
+
+.hawaii {
+    width: 70%;
+    max-width: 2000px!important;
+    font-size: 20px;
+    .hawaii1{
+        text-align: center;
+        img{
+            height: 600px;
+            width: 900px;
+        }
+    }
+    .hawaii2{
+        text-align: center;
+        img{
+            height: 600px;
+            width: 900px;
+        }
+    }
+p{
+    float: left;
+    padding: 20px 20px;
+}
+}      
+
+
+.singapore {
+    width: 70%;
+    max-width: 2000px!important;
+    font-size: 20px;
+    .singapore1{
+        text-align: center;
+        img{
+            height: 600px;
+            width: 800px;
+        }
+    }
+    .singapore2{
+        text-align: center;
+        img{
+            height: 600px;
+            width: 800px;
+        }
+    }
+p{
+    float: left;
+    padding: 20px 20px;
+}
+}      

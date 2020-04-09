@@ -2,7 +2,6 @@ import React from 'react';
 import './aboutpage.styles.scss';
 import Image from 'react-bootstrap/Image'
 import Reveal from 'react-reveal/Reveal';
-import Fade from 'react-reveal/Fade'
 import CarouselPhotos from '../../components/carousel/carousel.component';
 import AnimatedMaps from '../../components/animated-maps/animated-maps.component';
 
@@ -92,8 +91,10 @@ class AboutPage extends React.Component {
             delay = {300}>
               <h3> Hobbies and Interests</h3>
                 <h4> Photography</h4>
+                  
                   <div className = 'paragraph-4'>
                     <p>
+                      <a href = " https://photos.app.goo.gl/4gRF7RC9GFVNnNP89"> Photography Portfolio </a> <br/>
                       <strong>Equipment:</strong> <br/>
                       Canon 400D | Temporary using Canon 600D<br/>
                       <strong>Lenses:</strong> <br/>
