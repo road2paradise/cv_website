@@ -4,15 +4,6 @@ import Image from 'react-bootstrap/Image';
 import Carousel from 'react-bootstrap/Carousel';
 import './carousel.styles.scss';
 
-const image1 = require('../../assets/photography/img_1.jpg');
-const image2 = require('../../assets/photography/img_2.jpg');
-const image3 = require('../../assets/photography/img_3.jpg');
-const image4 = require('../../assets/photography/img_4.jpg');
-const image5 = require('../../assets/photography/img_5.jpg');
-const image6 = require('../../assets/photography/img_6.jpg');
-const image7 = require('../../assets/photography/img_7.jpg');
-const image8 = require('../../assets/photography/img_8.jpg');
-
 
 
 const CarouselPhotos = () => {
@@ -25,7 +16,7 @@ const CarouselPhotos = () => {
                 <Carousel.Item>
                     <Image
                     className = "photos"
-                    src = {image1}
+                    src = "https://s3-ap-southeast-2.amazonaws.com/nguyen-kenny.com/photos/img_1.jpg"
                     alt = "first slide"
                     />
                     <Carousel.Caption>
@@ -35,18 +26,8 @@ const CarouselPhotos = () => {
                 <Carousel.Item>
                     <img
                     className = "photos"
-                    src = {image2}
+                    src = "https://s3-ap-southeast-2.amazonaws.com/nguyen-kenny.com/photos/img_2.jpg"
                     alt = "second slide"
-                    />
-                    <Carousel.Caption>
-                        <h3> Asakusa Temple and Tokyo Sky tree, Tokyo, Japan January 2019 </h3>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                    className = "photos"
-                    src = {image3}
-                    alt = "third slide"
                     />
                     <Carousel.Caption>
                         <h3> Gibbs Sculpture Park, Kaipara Coast, Auckland Febuary 2019 </h3>
@@ -55,8 +36,8 @@ const CarouselPhotos = () => {
                 <Carousel.Item>
                     <img
                     className = "photos"
-                    src = {image4}
-                    alt = "fourth slide"
+                    src = "https://s3-ap-southeast-2.amazonaws.com/nguyen-kenny.com/photos/img_3.jpg"
+                    alt = "third slide"
                     />
                     <Carousel.Caption>
                         <h3> Northcote Point view of the Auckland Harbour Bridge, Northcote Point, Auckland June 2019  </h3>
@@ -65,8 +46,8 @@ const CarouselPhotos = () => {
                 <Carousel.Item>
                     <img
                     className = "photos"
-                    src = {image5}
-                    alt = "fifth slide"
+                    src = "https://s3-ap-southeast-2.amazonaws.com/nguyen-kenny.com/photos/img_4.jpg"
+                    alt = "fourth slide"
                     />
                     <Carousel.Caption>
                         <h3> Museum Forecourt view of Auckland CBD silhouette at Twilight, Auckland June 2019 </h3>
@@ -75,8 +56,8 @@ const CarouselPhotos = () => {
                 <Carousel.Item>
                     <img
                     className = "photos"
-                    src = {image6}
-                    alt = "sixth slide"
+                    src = "https://s3-ap-southeast-2.amazonaws.com/nguyen-kenny.com/photos/img_5.jpg"
+                    alt = "fifth slide"
                     />
                     <Carousel.Caption>
                         <h3> Mount Eden Twilight View of Auckland CBD, Auckland January 2020 </h3>
@@ -85,8 +66,8 @@ const CarouselPhotos = () => {
                 <Carousel.Item>
                     <img
                     className = "photos"
-                    src = {image7}
-                    alt = "seventh slide"
+                    src = "https://s3-ap-southeast-2.amazonaws.com/nguyen-kenny.com/photos/img_6.jpg"
+                    alt = "sixth slide"
                     />
                     <Carousel.Caption>
                         <h3> Muriwai cliff-face at twilight, Auckland, Febuary 2020</h3>
@@ -95,8 +76,8 @@ const CarouselPhotos = () => {
                 <Carousel.Item>
                     <img
                     className = "photos"
-                    src = {image8}
-                    alt = "eighth slide"
+                    src = "https://s3-ap-southeast-2.amazonaws.com/nguyen-kenny.com/photos/img_7.jpg"
+                    alt = "seventh slide"
                     />
                     <Carousel.Caption>
                         <h3> Muriwai Gannet Colony Sunet view, Auckland Febuary 2020 </h3>
