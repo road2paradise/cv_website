@@ -17,7 +17,7 @@ const ProjectsPage = () => {
       <div className="project-page-content">
         <h1 className="project-page-title">Projects</h1>
         <CardDeck className="project-contents">
-          <Card className="card1" border="dark">
+          <Card className="project-card" border="dark">
             <Card.Body>
               <Logo1 className="crwn-logo" />
               <Card.Title className="card-title">
@@ -40,7 +40,7 @@ const ProjectsPage = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card border="dark">
+          <Card className="project-card" border="dark">
             <Card.Body>
               <img alt="natours-logo" src={Logo2} className="natours-logo" />
               <Card.Title className="card-title">
@@ -62,7 +62,7 @@ const ProjectsPage = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card border="dark">
+          <Card className="project-card" border="dark">
             <Card.Body>
               <img alt="cv-logo" src={Logo3} className="cv-logo" />
               <Card.Title>nguyen-kenny.com</Card.Title>

@@ -7,25 +7,26 @@ const Logo2 = require("../../assets/logo-green-small.png");
 const NatoursPage = () => {
   return (
     <Reveal bottom delay={400}>
-      <div className="title">
+      <div className="natours-content">
         <img alt="natours-logo" src={Logo2} className="natours-logo" />
         <h1>Natours</h1>
-        <span>
+        <p>
           {" "}
           <a className="option" href="https://natours-inc.herokuapp.com/">
             {" "}
             Link{" "}
           </a>
-        </span>
+        </p>
         <br />
         <br />
         <br />
         <h2> About</h2>
         <p>
           Natours was my first ever experience with Back-end web development.
-          This was by far the funnest project I have completed. There were lots
-          to learn, heaps of challenging components to make it all work and was
-          overall a great bootcamp course on NodeJS, Express, MongoDB and more.
+          This was by far the funnest project I have completed. <br /> There
+          were lots to learn, heaps of challenging components to make it all
+          work and was overall a great bootcamp course on NodeJS, Express,
+          MongoDB and more.
         </p>
         <br />
         <br />

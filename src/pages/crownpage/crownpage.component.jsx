@@ -5,10 +5,10 @@ import { ReactComponent as Logo1 } from "../../assets/crown.svg";
 const CrownPage = () => {
   return (
     <Reveal bottom delay={1000}>
-      <div>
+      <div className="crown-content">
         <Logo1 className="crown-logo" />
         <h1>Crown Shopping Plaza</h1>
-        <span>
+        <p>
           {" "}
           <a
             className="option"
@@ -17,12 +17,12 @@ const CrownPage = () => {
             {" "}
             Link{" "}
           </a>
-        </span>
+        </p>
         <br />
         <br />
         <br />
         <h2> About</h2>
-        <span>
+        <p>
           Crown Plaza was my first portfolio project while I was learning
           Javascript and React. I chose to learn React as it is a modern
           Javascript library that is commonly used in industry - so I could use
@@ -30,7 +30,7 @@ const CrownPage = () => {
           Learning about component and state management approach of Web
           Development was interesting and challenging as I only learnt Object
           Oriented Programming in University.
-        </span>
+        </p>
         <br />
         <br />
         <br />

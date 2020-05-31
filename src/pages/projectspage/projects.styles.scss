@@ -8,6 +8,10 @@
   }
   h1 {
     margin-bottom: 200px;
+    @media screen and (max-width: 500px) {
+      font-size: 10px;
+      margin-bottom: 50px;
+    }
   }
   p {
     margin-top: 50px;
@@ -17,6 +21,19 @@
   .project-contents {
     margin-left: 150px;
     margin-right: 150px;
+    @media screen and (max-width: 500px) {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .project-card {
+      @media screen and (max-width: 500px) {
+        margin-left: 25%;
+        flex-direction: unset;
+        width: 50%;
+        height: 300px;
+        align-content: center;
+      }
+    }
     .natours-logo {
       width: 50px;
       height: 30px;
@@ -25,9 +42,13 @@
     .card-title {
       font-size: 40px;
       color: black;
+      @media screen and (max-width: 500px) {
+        font-size: 16px;
+        margin-bottom: 0px;
+      }
       .link-text {
         color: black;
-        padding: 20px 20px;
+        padding: 10px 10px;
         justify-content: flex-start;
       }
     }
@@ -38,6 +59,11 @@
       margin-left: 10px;
       margin-right: 10px;
       font-size: 18px;
+      @media screen and (max-width: 500px) {
+        font-size: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
       color: black;
     }
   }
