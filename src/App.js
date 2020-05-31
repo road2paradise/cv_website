@@ -3,6 +3,7 @@ import AboutPage from "./pages/aboutpage/aboutpage.component";
 import HomePage from "./pages/homepage/homepage.component";
 import ProjectsPage from "./pages/projectspage/projects.component";
 import CrownPage from "./pages/crownpage/crownpage.component";
+import NatoursPage from "./pages/natourspage/natourspage.component";
 import { TitleComponent } from "./components/title/Title.component.jsx";
 import Switch from "react-switch";
 import { Route, Link } from "react-router-dom";
@@ -31,6 +32,10 @@ const ProjectsPageComponent = withTitle({
 const CrownPageComponent = withTitle({
   component: CrownPage,
   title: "Crown Plaza Project",
+});
+const NatoursPageComponent = withTitle({
+  component: NatoursPage,
+  title: "Natours Project",
 });
 
 class App extends React.Component {
@@ -88,6 +93,7 @@ class App extends React.Component {
             <Route exact path="/about" component={AboutPageComponent} />
             <Route exact path="/projects" component={ProjectsPageComponent} />
             <Route exact path="/crown-plaza" component={CrownPageComponent} />
+            <Route exact path="/natours" component={NatoursPageComponent} />
             <br />
             <footer>Copyright © Kenny Nguyen 2020</footer>
           </div>
