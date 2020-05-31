@@ -1,103 +1,102 @@
-.dir{
-    text-align: center;
-    .wrappertrue{
-        background-color: #111111;
-        transition: background-color 0.5s linear;
-        color: white;
-        @media screen and (max-width: 500px){
-            background-color: #111111;
-            transition: background-color 0.5s linear;
-            color: white;
-        }
-        .header{
-            display: flex;
+.dir {
+  text-align: center;
+  .wrappertrue {
+    background-color: #111111;
+    transition: background-color 0.5s linear;
+    color: white;
+    @media screen and (max-width: 500px) {
+      background-color: #111111;
+      transition: background-color 0.5s linear;
+      color: white;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding: 20px 60px;
+      @media screen and (max-width: 500px) {
+        padding: 10px 5px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+      .options {
+        .option {
+          font-size: 30px;
+          color: white;
+          padding: 20px 20px;
+          justify-content: flex-start;
+          @media screen and (max-width: 500px) {
+            font-size: 10px;
+            padding: 0px 5px;
             justify-content: space-between;
-            width: 100%;
-            padding: 20px 60px;
-            @media screen and (max-width: 500px){
-                padding: 10px 5px;
-                display: flex;
-                justify-content: space-between;
-                width: 100%;
-            }
-            .options{
-                .option{
-                    font-size: 30px;
-                    color: white;
-                    padding: 20px 20px;
-                    justify-content: flex-start;
-                    @media screen and (max-width: 500px){
-                        font-size: 10px;
-                        padding: 0px 5px;
-                        justify-content: space-between;
-                    }  
-                }
-            }
-            .switch{
-                .text{
-                    font-size: 30px;
-                    padding: 1px 10px;
-                    @media screen and (max-width: 500px){
-                        font-size: 10px;
-                        padding: 10px 10px;
-                        justify-content: space-between;
-                    }  
-                }
-
-            }
+          }
         }
-    }
-    .wrapperfalse{
-        background-color: white;
-        transition: background-color 0.5s linear;
-        color: black;
-        @media screen  and (max-width: 500px){
-            background-color: white;
-            transition: background-color 0.5s linear;
-            color: black;
-        }
-        .header{
-            display: flex;
+      }
+      .switch {
+        .text {
+          font-size: 30px;
+          padding: 1px 10px;
+          @media screen and (max-width: 500px) {
+            font-size: 10px;
+            padding: 10px 10px;
             justify-content: space-between;
-            width: 100%;
-            padding: 20px 60px;
-            @media screen and (max-width: 500px){
-                padding: 10px 5px;
-                display: flex;
-                justify-content: space-between;
-                width: 100%;
-            }
-            .options{
-                .option{
-                    font-size: 30px;
-                    color: black;
-                    padding: 20px 20px;
-                    justify-content: flex-start;
-                    @media screen and (max-width: 500px){
-                        font-size: 10px;
-                        padding: 0px 5px;
-                        justify-content: space-between;
-                    }  
-                }
-            }
-            .switch{
-                .text{
-                    font-size: 30px;
-                    padding: 1px 10px;
-                    @media screen and (max-width: 500px){
-                        font-size: 10px;
-                        padding: 10px 10px;
-                        justify-content: space-between;
-                    }  
-                }
-            }
+          }
         }
+      }
     }
-    footer {
-        font-size: 20px;
-        @media screen and (max-width: 500px) {
-            font-size: 12px;
+  }
+  .wrapperfalse {
+    background-color: white;
+    transition: background-color 0.5s linear;
+    color: black;
+    @media screen and (max-width: 500px) {
+      background-color: white;
+      transition: background-color 0.5s linear;
+      color: black;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding: 20px 60px;
+      @media screen and (max-width: 500px) {
+        padding: 10px 5px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+      .options {
+        .option {
+          font-size: 30px;
+          color: black;
+          padding: 20px 20px;
+          justify-content: flex-start;
+          @media screen and (max-width: 500px) {
+            font-size: 10px;
+            padding: 0px 5px;
+            justify-content: space-between;
+          }
         }
-
+      }
+      .switch {
+        .text {
+          font-size: 30px;
+          padding: 1px 10px;
+          @media screen and (max-width: 500px) {
+            font-size: 10px;
+            padding: 10px 10px;
+            justify-content: space-between;
+          }
+        }
+      }
     }
-}   
+  }
+  footer {
+    padding-top: 300px;
+    font-size: 15px;
+    @media screen and (max-width: 500px) {
+      font-size: 12px;
+    }
+  }
+}
